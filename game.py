@@ -1,5 +1,5 @@
 from turtle import Screen
-from paddlebar import Padde_Bar
+from paddlebar import Paddle_Bar
 from ball import Ball
 from scorecard import Score
 import time
@@ -10,8 +10,8 @@ screen.bgcolor("black")
 screen.setup(800, 600)
 screen.tracer(0)
 
-r_paddle_bar=Padde_Bar((350,0))
-l_paddle_bar=Padde_Bar((-350,0))
+r_paddle_bar=Paddle_Bar((350,0))
+l_paddle_bar=Paddle_Bar((-350,0))
 
 the_ball=Ball()
 
